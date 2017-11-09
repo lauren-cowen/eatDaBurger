@@ -1,0 +1,27 @@
+{
+  "name": "eatdaburger",
+  "version": "1.0.0",
+  "description": "This app functions as a burger logger.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurenc234/eatDaBurger.git"
+  },
+  "author": "Lauren Cowen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurenc234/eatDaBurger/issues"
+  },
+  "homepage": "https://github.com/laurenc234/eatDaBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
